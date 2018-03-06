@@ -129,6 +129,24 @@ ul .selected {
     margin-left: 17.5%;
     margin-bottom: 8px;
 }
+.ownMessages h3 {
+    font-size: medium;
+}
 
+.ownMessages p {
+    background-color: white;
+    padding: 16px;
+}
+.ownMessages button {
+    background-color: #CDDC39;
+    color: black;
+    text-transform: uppercase;
+}
+
+/* the message em text ( Time ) styling */
+.ownMessages em {
+    font-size: larger;
+    font-style: normal;
+}
 
 
