@@ -1,0 +1,134 @@
+    /* #2 #colorful #palette is:
+      * Background: #F5F5F5 (GREY 100)
+      * Primary Text    
+      * Primary color: #3F51B5 (INDIGO)
+      * Primary color_text : white
+      * Accent color: #CDDC39 (LIME)
+      * Accent color_text: black
+      */
+
+
+/* 🌏 ̳G̳l̳o̳b̳a̳l̳ 🌏 */
+
+* {
+    /* #2 #font #faces */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+
+
+/* ▁ ▂ ▄ ▅ ▆ ▇ █ 𝔄𝔭𝔭 𝔟𝔞𝔯 █ ▇ ▆ ▅ ▄ ▂ ▁ */
+
+h1 {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+}
+
+
+/* 📘 Ｃｈａｎｎｅｌｓ Ｌｉｓｔ 📘 */
+
+ul {
+    /* Clearing the list bullets */
+    list-style-type: none;
+    
+    /* Changing the list  background color */
+    background-color: white;
+}
+ul li {
+    padding: 16px;
+    font-size: 16px;
+    height: 16px;
+    border-bottom: 1px solid #f1f1f1;
+}
+ul li img {
+    vertical-align: middle;
+}
+
+ul .selected {
+    border-left: 4px solid #3F51B5;
+    color: #3F51B5;
+}
+
+
+/* 📌 ㄒ卂乃 乃卂尺 📌 */
+
+#tab-bar {
+    background-color: white;
+    text-align: center;
+}
+
+#tab-bar button {
+    text-transform: uppercase;
+    background-color: white;
+    border: none;
+    font-size: 13px;
+    width: 30%;
+    height: 72px;
+    padding: 16px;
+}
+#tab-bar .selected {
+    border-bottom: 4px solid #3F51B5;
+}
+
+#tab-bar img {
+    display: block;
+    margin: auto;
+    margin-bottom: 4px;
+}
+
+
+/* °°°·.°·..·°¯°·._.· 𝕄𝕖𝕤𝕤𝕒𝕘𝕖𝕤 ·._.·°¯°·.·° .·°°° */
+
+/* the message container styling */
+.message {
+    width: 80%;
+    margin-bottom: 8px;
+    margin-left: 2.5%;
+}
+
+/* The message Metadata Styling */
+.message h3 {
+    font-size: medium;
+}
+
+/* The message text Styling */
+.message p {
+    background-color: white;
+    padding: 16px;
+}
+
+/* the button (+5min) styling */
+.message button {
+    background-color: #CDDC39;
+    color: black;
+    text-transform: uppercase;
+}
+
+/* the message em text ( Time ) styling */
+.message em {
+    font-size: larger;
+    font-style: normal;
+}
+
+/* the messages container link styling */
+.messages a {
+    /* Changing the #link color to white and the text decoration (The Underline) */
+    color: black;
+    text-transform: uppercase;
+}
+
+/* The styling for own message */
+.ownMessages {
+    margin-left: 17.5%;
+    margin-bottom: 8px;
+}
+
+
+
